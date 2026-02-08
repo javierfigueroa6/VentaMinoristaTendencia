@@ -1,0 +1,13 @@
+REPORTE DE CLASIFICACIÓN - Modelo de Postulantes
+============================================================
+
+              precision    recall  f1-score   support
+
+    Aceptado     0.7163    0.7953    0.7537       127
+   Rechazado     0.8365    0.7688    0.8012       173
+
+    accuracy                         0.7800       300
+   macro avg     0.7764    0.7820    0.7775       300
+weighted avg     0.7856    0.7800    0.7811       300
+
+============================================================

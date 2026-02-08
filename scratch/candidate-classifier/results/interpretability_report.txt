@@ -1,0 +1,32 @@
+======================================================================
+REPORTE DE INTERPRETABILIDAD DEL MODELO
+Métodos: Permutation Importance & Partial Dependence
+======================================================================
+
+📊 IMPORTANCIA DE FEATURES (Permutation Importance)
+----------------------------------------------------------------------
+ 1. Palabras_Clave                 | Importancia: 0.2270 (±0.0241)
+ 2. Magister                       | Importancia: 0.0480 (±0.0128)
+ 3. Edad                           | Importancia: 0.0307 (±0.0117)
+ 4. Universidad_Instituto          | Importancia: 0.0243 (±0.0113)
+ 5. Titulo_Profesional             | Importancia: 0.0210 (±0.0113)
+ 6. Comuna                         | Importancia: 0.0177 (±0.0108)
+ 7. Presencial                     | Importancia: 0.0123 (±0.0119)
+
+======================================================================
+INTERPRETACIÓN:
+======================================================================
+
+Permutation Importance mide cuánto baja el rendimiento del modelo
+cuando se permutan aleatoriamente los valores de cada feature.
+
+- Valores altos → Feature muy importante para el modelo
+- Valores bajos → Feature poco relevante
+- Barras de error → Variabilidad/estabilidad de la importancia
+
+Visualizaciones generadas:
+  • interpretability_feature_importance.png - Comparación de métodos
+  • interpretability_partial_dependence.png - Efecto de features
+  • interpretability_individual_*.png - Análisis de casos
+
+======================================================================

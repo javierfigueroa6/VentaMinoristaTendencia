@@ -10,9 +10,11 @@ import os
 plt.style.use('ggplot')
 sns.set_theme(style="whitegrid")
 
-OUTPUT_DIR = 'retail_sales_forecast/output'
-# Updated to point to the Excel file
-DATA_PATH = 'retail_sales_forecast/data/ventas_chile_dummy.xlsx'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+DATA_PATH = os.path.join(PROJECT_ROOT, 'data', 'ventas_chile_dummy.xlsx')
 
 def generate_plots(df):
     """Generates and saves EDA plots."""

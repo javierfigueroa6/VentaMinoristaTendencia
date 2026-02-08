@@ -78,10 +78,15 @@ with st.sidebar:
     st.image("https://img.icons8.com/clouds/100/000000/bar-chart.png", width=100)
     st.header("Centro de Control")
     
-    # Path handling
-    data_file = 'retail_sales_forecast/data/ventas_chile_dummy.xlsx'
+    # Path handling - more robust for different environments
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    PARENT_DIR = os.path.dirname(SCRIPT_DIR)
+    
+    # Try local data first, then parent-relative
+    data_file = os.path.join(PARENT_DIR, 'data', 'ventas_chile_dummy.xlsx')
     if not os.path.exists(data_file):
-        data_file = '../data/ventas_chile_dummy.xlsx'
+        # Fallback for if someone runs from root and the folder is named differently
+        data_file = 'retail_sales_forecast/data/ventas_chile_dummy.xlsx'
     
     st.info(f"📁 Origen: `{os.path.basename(data_file)}`")
     

@@ -6,3 +6,7 @@ matplotlib
 seaborn
 statsmodels
 openpyxl
+scikit-learn
+catboost
+faker
+# shap

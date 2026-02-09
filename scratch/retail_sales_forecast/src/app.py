@@ -69,7 +69,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and Subtitle
-st.title("🛒 Predicción de Ventas: Supermercados Chile")
+st.title("🛒 Predicción de Ventas: Mercado Minorista (Retail) Chile")
 st.markdown("### Inteligencia de Negocios y Forecasting de Demanda")
 st.markdown("_Análisis profesional del Índice General de Ventas (Precios Constantes)_")
 

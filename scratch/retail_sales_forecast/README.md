@@ -1,6 +1,6 @@
 # 🛒 Retail Sales Forecast Chile
 
-Este proyecto es una herramienta profesional de análisis y pronóstico de ventas minoristas para supermercados en Chile, utilizando el **Índice de Ventas a Precios Constantes**.
+Este proyecto es una herramienta profesional de análisis y pronóstico de ventas minoristas para el sector minorista (retail) en Chile, utilizando el **Índice de Ventas a Precios Constantes**.
 
 ## 🚀 Cómo Empezar
 

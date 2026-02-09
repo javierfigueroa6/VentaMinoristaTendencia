@@ -238,7 +238,7 @@ def create_report(ts_data_monthly, monthly_forecast, daily_forecast):
         context_desc = "Se observa una estabilización positiva en las ventas (+1-3%). Considerando el contexto país, esto indica una 'normalización' de la demanda. Tras la contracción post-pandemia, el mercado ha encontrado un nuevo piso de crecimiento moderado, alineado con las proyecciones de crecimiento del PIB tendencial."
     elif annual_growth > -2.0:
         context_sentiment = "Estancamiento / Ajuste Leve"
-        context_desc = "El mercado lateraliza sin una dirección agresiva. Este comportamiento es coherente con una economía en fase de ajuste, donde la incertidumbre local o tasas de interés aún restrictivas podrían estar frenando un mayor impulso en el gasto de supermercados (bienes no durables)."
+        context_desc = "El mercado lateraliza sin una dirección agresiva. Este comportamiento es coherente con una economía en fase de ajuste, donde la incertidumbre local o tasas de interés aún restrictivas podrían estar frenando un mayor impulso en el gasto del sector minorista (bienes no durables)."
     else:
         context_sentiment = "Contracción del Consumo"
         context_desc = "Se evidencia una caída sistemática en el índice real de ventas. Esto alerta sobre un debilitamiento del poder adquisitivo o un cambio en los patrones de consumo hacia canastas más básicas, reflejando probablemente debilidad en el mercado laboral o persistencia inflacionaria en alimentos."
